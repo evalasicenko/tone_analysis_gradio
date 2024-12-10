@@ -1,10 +1,7 @@
 import pytest
 from tone_analysis import ToneAnalyzer
 
-# Путь к файлу словаря
 tone_dict_path = 'tone-dict-uk.tsv'
-
-# Инициализируем объект ToneAnalyzer для использования в тестах
 tone_analyzer = ToneAnalyzer(tone_dict_path)
 
 def test_positive_tone():
